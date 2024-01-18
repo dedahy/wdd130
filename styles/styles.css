@@ -35,14 +35,19 @@ aside img{
     height: auto;
 }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
 
+aside h2{
+    font-size: 30px;
+}
+
 main img{
     width: 150px;
     height: auto;
 }
 
-h1{
+main h1{
     font-size: 30px;
 }
+
 
 p{
     padding: 0;
