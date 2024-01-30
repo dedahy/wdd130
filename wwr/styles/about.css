@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+:root{
+    --primary-color: #436436;
+    --secondary-color: #D6F599;
+    --accent1-color: #D2FF28;
+    --accent2-color: #C84C09;
+    --heading-font: 'Montserrat', serif;
+    --paragraph-font: 'calibri', serif;
+    --nav-background-color: #4f5253;
+    --nav-link-color: #040405;
+    --nav-hover-link-color: #ECC30B;
+    --nav-hover-background-color: #732407;
+}
+
+header{
+    font-family: var(--heading-font);
+    padding: 10px;
+    margin: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--paragraph-font);
+    font-weight: bold;
+}
+
+.hero{
+    position: relative;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    float: right;
+}
+
+.hero h1{
+    position: absolute;
+    background-color: var(--nav-link-color);
+    width: 100%;    
+    text-align: center;
+    opacity: 0.68;
+    top: 50px;
+    color: #fff;
+    height: auto;
+} 
+
+article{
+    position: absolute;
+    top: 100px;
+    opacity: 0.69;
+    background-color: var(--nav-background-color);
+    width: 20%;
+    height: 360px;
+    top: 350px;
+    padding: 0 470px;
+    margin: 0 60px;
+    display: block;
+    text-align: center;
+}
+
+article p{
+    float: left;
+    padding: 10px;
+    color: #fff;
+}
+
+.sociallinks{
+    display: inline-block;
+    width: 1.6%;
+}
+
+h2{
+    color: var(--nav-link-color);
+}
