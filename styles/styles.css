@@ -105,7 +105,7 @@ aside h2{
     grid-row: 1/2;
 }
 
-header, .grid, footer{
+header, footer, .grid{
     max-width: 840px;
     margin: 0 auto;
 }
