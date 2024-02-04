@@ -17,12 +17,34 @@ header{
     font-family: var(--heading-font);
     padding: 10px;
     margin: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+
 }
 
-a{
+header img{
+    padding: 0 100px;
+}
+
+nav{
+    padding: 70px;
+}
+
+header a{
     text-decoration: none;
     color: var(--paragraph-font);
     font-weight: bold;
+    font-size: 25px;
+    padding: 10px ;
+    background-color: #fff;
+}
+
+header a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--accent2-color);
 }
 
 .hero{
@@ -47,6 +69,12 @@ a{
     height: auto;
 } 
 
+section{
+    bottom: 10px;
+    text-align: center;
+}
+
+
 article{
     position: absolute;
     top: 100px;
@@ -67,9 +95,30 @@ article p{
     color: #fff;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--nav-background-color);
+    width: 96%;
+    height: 35px;
+    text-align: center;
+    padding: 20px;
+    margin: 0 10px;   
+}
+
+footer p{
+    color: #fff;
+}
+
 .sociallinks{
-    display: inline-block;
+    align-items: center;
     width: 1.6%;
+    top: 100px;
+}
+
+.sociallinks img{
+    display: flex;
 }
 
 h2{
