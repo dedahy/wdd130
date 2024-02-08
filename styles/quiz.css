@@ -8,7 +8,7 @@
 
 body{
     font-family: Merriweather, Georgia, serif;
-    font-size: 1.2em;
+    font-size: 1em;
     color: #333;
     background: #fff;
 }
@@ -16,15 +16,45 @@ body{
 header{
     margin: 0 auto;
     width: 650px;
-    text-align: center;
 }
-  
-ul .check{
-    list-style: '☑️';
+
+
+.check{
+    list-style-type: '✔️';
+    background-color: #00000000;
+    margin: 0 2rem;
+}
+h1{
+    font-size: 2rem;
+}
+
+label, input, button, select, textarea{
+    font-family: Roboto, Arial, sans-serif;
+}
+
+label{
+    padding-right: 1rem;
+}
+
+input, select, textarea, button{
+    margin: 1rem -1rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 37rem;
+}
+
+ol li::marker{
+    color: #0a1175;
+    font-weight: bold;
+}
+
+li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 }
 
 form{
-    text-align: center;
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
@@ -34,4 +64,35 @@ form{
     display: grid;
 }
 
+ol{
+    display: block;
+    padding: 0 30px;;
+}
 
+p{
+    color: #fff;
+    font-size: 0.7rem;
+    font-family: none;
+}
+
+
+.bord{
+    background-color: #333;
+    width: 80%;
+    padding: 1rem;
+    margin: 0.3rem 4rem;
+}
+
+button{
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
