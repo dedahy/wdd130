@@ -21,11 +21,11 @@ header{
 
 .check{
     list-style-type: '✔️';
-    background-color: #00000000;
     margin: 0 2rem;
 }
 h1{
     font-size: 2rem;
+    color: navy;
 }
 
 label, input, button, select, textarea{
