@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&subset=cyrillic');
 :root {
-    --primary-color: #436436;
+    --primary-color: #202d1a;
     --secondary-color: #D6F599;
     --accent1-color: #D2FF28;
     --accent2-color: #C84C09;
@@ -20,7 +20,7 @@ body {
     padding: 5px;
   }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, form{
     font-family: var(--heading-font);
     color: var(--primary-color);
   }
@@ -55,3 +55,63 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
   }
+
+  /*Contact us style*/
+
+  .contact{
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #b6b6b6;
+    display: grid;
+
+}
+
+h3{
+
+}
+form{
+    
+    padding: 10px;
+    border-radius: 0.5rem;
+    background-color: #b6b6b6;
+    display: grid;
+
+}
+
+input[type ="text"], input[type ="email"], select, textarea, button{
+
+    margin: 1rem 10.2rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 37rem;
+}
+
+label{
+    margin: 0 10.5rem;
+}
+
+input[type = "radio"]{
+    padding: 1rem;
+}
+
+span{
+    padding: 1rem 24rem;
+    font-size: 1.1rem;
+}
+
+input[type = "checkbox"]{
+    margin: 1rem;
+}
+
+button{
+    width: 39rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
