@@ -67,6 +67,31 @@ nav a:hover {
   background-color: var(--nav-hover-background-color);
   }
 
+  /*Caption*/
+
+  figure{
+    display: flex;
+    border: thin #c0c0c0 solid;
+    display: inline-block;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+figure img {
+    max-width: 220px;
+    max-height: 108px;
+}
+  
+figcaption{
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
   /*Footer*/
 footer{
     display: flex;
