@@ -63,6 +63,20 @@ header a{
     height: auto;
 } 
 
+/*main*/
+
+main{
+    text-align: center;
+}
+
+.rapids{
+    border: thin #c0c0c0 solid;
+}
+
+.rapids img{
+    width: 100%;
+}
+
 section{
     bottom: 10px;
     text-align: center;
