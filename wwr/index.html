@@ -3,72 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WHITE WATER RAFTING</title>
-    <meta name="description" content="dedahy, WDD 130, Home Rafting website website.">
+    <title>WHITE WATER RAFTING About Us</title>
+    <meta name="description" content="dedahy, WDD 130, Rafting website website.">
     <meta name="author" content="Dedahy Jean OMBILAHY">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/rafting.css">
 
 </head>
 <body>
     <header>
-        <div class="gather">
-            <img src="images/jackalope-west-02HBQ2w_yak-unsplash.jpg" alt="">
-            <div class="gosth">
-                <img src="images/logo.png" alt="Rafting Site Logo">
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About Us</a>
-                    <a href="trips.html">Trips</a>
-                    <a href="contact.html">Contact Us</a>
-                </nav>
-            </div>
-        </div>
+        <img src="images/logo.png" alt="Rafting Site Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
     </header>
     <main>
-        <div class="header">
-
-            <!--Content before waves-->
-            <div class="inner-header flex">
-            <!--Just the logo.. Don't mind this-->
-            <svg version="1.1" class="logo" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 500 500" xml:space="preserve">
-            <path fill="#FFFFFF" stroke="#000000" stroke-width="10" stroke-miterlimit="10" d="M57,283" />
-            </svg>
-                <div class="info">
-                    <h2>Welcome <br><br> To <br><br> WHITE WATER RAFTING</h2><br>
-                    <p>
-                        Based in Highland Perthshire
-                        White Water Rafting, Canyoning, Quad Trekking, SUP Hire and much more in Perthshire, Scotland. 
-                        Create the perfect trip for individuals, Stag & Hen Parties, Families, and Groups.
-                    </p>
-                    
-                    <a href="541-488-2525-205"><img src="images/old-typical-phone.png" alt=""> 541-488-2525-205</a>
-                    <a href="whitewaterrafting@network.net"><img src="images/email.png" alt=""> whitewaterrafting@network.net</a>
-                    
-                </div>
-            </div>
-            
-            <!--Waves Container-->
-            <div>
-            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-            <defs>
-            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-            </defs>
-            <g class="parallax">
-            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-            </g>
-            </svg>
-            </div>
-            <!--Waves end-->
-            
+        <div class="hero">
+            <img src="images/river-narrow.jpg" alt="">
+            <h1>WHITE WATER RAFTING</h1>
         </div>
-            <!--Header ends-->
-            
-            <!--Content starts-->
+        <div class="details">
+            <form>
+                <label for="user_name">User Name:</label>
+                <input type="text" name="user_name" id="user_name">
+                <label for="email_user">Email:</label>
+                <input type="email" name="email_user" id="email_user">    
+                <button type="submit">Sign Up</button>
+            </form>
+
+            <a href="trips.html">View our trips</a>
+
             <h3>A Great Group Experience</h3>
             <p>
                 White water rafting can be a wonderful bonding experience for a family or group of friends. As you conquer the rapids you will feel closer and more connected to the people you share this experience with. Smoky Mountain Outdoors can accommodate family reunions, youth groups, wedding parties, corporate retreats and any other large parties. We also offer special group rates, so you can save money when you visit us with 10 or more people. Visit our White Water Rafting Group Information page to learn more about our discounts.
@@ -81,31 +48,32 @@
             <p>
                 When organized by an experienced and dedicated staff, white water rafting in Gatlinburg is a completely safe way to have an exhilarating outdoor adventure. Our guides are rigorously trained as well as certified in Standard First Aid. Before you embark upon your rafting trip, you will get a brief orientation with everything you need to know 
             </p>
-        <div class="display">
-            <img src="images/winner.jpg" alt="">
-            <h2>Happy Customer</h2>
+            <div class="display">
+                <img src="images/winner.jpg" alt="">
+                <h2>Happy Customer</h2>
+            </div>
+                <section>
+                    <h3>Journey with us</h3>
+                    <figure>
+                        <img src="images/river.jpg" alt="Adventure Awaits">
+                        <figcaption>Colardo River</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/istockphoto-1491190013-1024x1024.jpg" alt="Adventure Awaits">
+                        <figcaption>Camping</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/rapids.jpg" alt="Adventure Awaits">
+                        <figcaption>Rapids</figcaption>
+                    </figure>
+                </section>
         </div>
-            <section>
-                <h3>Journey with us</h3>
-                <figure>
-                    <img src="images/river.jpg" alt="Adventure Awaits">
-                    <figcaption>Colardo River</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/istockphoto-1491190013-1024x1024.jpg" alt="Adventure Awaits">
-                    <figcaption>Camping</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rapids.jpg" alt="Adventure Awaits">
-                    <figcaption>Rapids</figcaption>
-                </figure>
-            </section> 
-            
     </main>
     <footer>
         <p>
             ©2024 | WHITE WATER RAFTING | Dedahy Jean OMBILAHY
         </p>
+        <h4><a href="true.html">Home</a></h4>
         <nav class="sociallinks">
             <a href="https://facebook.com">
               <img src="images/facebook.svg" alt="Facebook">

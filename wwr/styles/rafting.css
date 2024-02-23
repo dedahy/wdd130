@@ -134,6 +134,23 @@ form{
 
 }
 
+.details{
+  background-color: #b6b6b6;
+  padding: 2rem;
+}
+
+.details a{
+  text-decoration: none;
+  font-size: 2rem;
+  color: #000;
+  background-color: yellow;
+  
+}
+
+.details a:hover{
+  color: red;
+}
+
 input[type ="text"], input[type ="email"], select, textarea, button{
 
     margin: 1rem 10.2rem;

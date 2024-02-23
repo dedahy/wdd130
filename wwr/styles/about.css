@@ -125,9 +125,14 @@ footer nav{
     padding: 10px;
 }
 
-footer a{
+footer h4 a{
     padding: 15px;
     margin: 0 10px;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #040405;
+    background-color: #bb2020;
+    border-radius: 2px;
 }
 
 footer img{
@@ -165,3 +170,26 @@ figcaption{
     padding: 3px;
     text-align: center;
 }
+
+
+
+table, td, tr, th{
+    border: 1px solid #0a0a0a;
+    border-collapse:collapse;
+    
+  }
+  thead{
+    color: #fff;
+  }
+  thead{
+    color: #0a0a0a;
+  }
+
+  th, td {
+    padding: 0.5rem;
+  }
+  
+  thead, tfoot {
+    background-color: #c21212;
+    color: #fff;
+  }
